@@ -1,0 +1,200 @@
+
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Météo Aéroport</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<header>
+<h1><b>Météorologie</b></h1>
+</header>
+
+<section id="entete">
+    <h3 id="aeroport">LFRS - Aéroport Nantes Atlantique </h3>
+</section>
+
+    <nav>
+<ul><li><a href="./site_page_suivante.html#entete">Toute la journée</a></li><li><a href="./site.html#s2" id="ici">Actuellement</a></li><li><a class="active" href="./site_page_precedente.html#entete"> Heures précédentes</a></li></ul></nav>
+<body>
+
+
+<style>
+body {
+    background-color: #8c8c8c;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #4d4d4d;
+    background-attachment: fixed;
+    height: 660px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+h1 {
+    margin: 15%;
+    font-size: 170px;
+}
+
+#entete {
+    background-color: #0e2bb7;
+    height: 70px;
+    margin: 0px;
+    padding-left: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 0. 5%;
+}
+
+#aeroport {
+    color: #000000;
+    font-size: 30px;
+    padding-top: 0.8%;
+    margin: 0px;
+}
+
+
+nav {
+    height: 60px;
+    width: 1000px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 19%;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 56px;
+    padding-left: 0px;
+    overflow: hidden;
+    background-color: #485dd3;
+    height: 100%;
+    border-radius: 50px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 280px;
+    padding: 15px 10px 20px;
+    text-decoration: none;
+    font-size: large;
+}
+
+li a:hover {
+    background-color: #3b4ba6;
+    color: #000000;
+    border: solid;
+}
+
+#ici {
+	background-color: blue;
+	color : white
+}
+
+
+
+#s2 {
+    height: 490px;
+    width: 46%;
+    padding: 1%;
+    padding-top: 0%;
+    margin-top: 10px;
+    margin-left: 15px;
+    background: #6b6bb9;
+    border-radius: 10px;
+    text-align: justify;
+    float: left;
+    margin-bottom: 15px
+}
+
+#s3 {
+    height: 490px;
+    width: 46%;
+    padding: 1%;
+    padding-top: 0%;
+    margin-top: 10px;
+    background: #6b6bb9;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+
+     /* <---------------- PAGE JOUR J+1  ----------------> */
+
+
+#prevision_j1 {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 0px 20% 0px 20%;
+}
+
+#div_prevision {
+    height: 490px;
+    width: 61%;
+    text-align: center;
+    padding: 1%;
+    padding-top: 0%;
+    margin-top: 10px;
+    background: #6b6bb9;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+
+#titre_prevision {
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+}
+</style>
+
+<section id=s2>
+<div id=>
+<h4>Observation</h4>Le bulletin météorologique pour ce <b>mercredi</b> <b>19/01/2022</b> a été effectué à <b>16h20 </b><br><br><table>
+<tr>	<th> Catégorie</td>	<th> Données </td>	</tr>
+<tr>	<td>Catégorie de vol</td>	<td>Vue</td>	</tr>
+<tr>	<td>VFR Visual Flight Rules</td>	<td>> 8 km</td>	</tr>
+<tr>	<td>MVFR Marginal VFR</td>	<td>5-8 km</td>	</tr>
+<tr>	<td>IFR Instrument Flight Rules</td>	<td>1,5-5 km</td>	</tr>
+<tr>	<td>LIFR Low IFR</td>	<td>< 1,5 km</td>	</tr>
+<tr>	<td></td>	<td></td>	</tr>
+<tr>	<td>Température</td>	<td>7 °C</td>	</tr>
+<tr>	<td>Point de rosée</td>	<td>6 °C</td>	</tr>
+<tr>	<td>Humidité rel.</td>	<td>93%</td>	</tr>
+<tr>	<td>Refroidissement éolien</td>	<td>5 °C</td>	</tr>
+<tr>	<td></td>	<td></td>	</tr>
+<tr>	<td>Taille</td>	<td>Couche cloud</td>	</tr>
+<tr>	<td>2.900 ft</td>	<td>Fragmenté</td>	</tr>
+<tr>	<td>18.000 ft</td>	<td>Fragmenté</td>	</tr>
+<tr>	<td>300 ft</td>	<td>Temporairement Fragmenté</td>	</tr>
+</table>
+</div>
+</section>
+<section id=s3>
+<div id=>
+<h4>Prévision sur 2 heures</h4><br> <b> Pour mercredi  à 17:00 :</b><br> La vitesse du vent est de 4 kt <br>L'orientation du vent est de 300° <br>La visibilité est de 4,5 km <br>La météo est Pluie légèreFragmenté à 1.200 ft <br>Il n'y a pas de Rafales <br><br><br> <b> Pour mercredi  à 18:00 :</b><br> La vitesse du vent est de 4 kt <br>L'orientation du vent est de 300° <br>La visibilité est de 4,5 km <br>La météo est Pluie légère à 1.200 ft <br>Il n'y a pas de Rafales <br><br></div>
+</section>
+</body>
+</html>
